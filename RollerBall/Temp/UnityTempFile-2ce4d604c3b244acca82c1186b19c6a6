@@ -4,9 +4,9 @@
 -langversion:4
 -out:'Temp/Assembly-CSharp.dll'
 -unsafe
--r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
 -r:'Library/FacebookSDK/Facebook.Unity.Settings.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
@@ -109,6 +109,7 @@
 'Assets/Scripts/Damage.cs'
 'Assets/Scripts/EnemyMove.cs'
 'Assets/Scripts/GameManager.cs'
+'Assets/Scripts/GameOverManager.cs'
 'Assets/Scripts/Health.cs'
 'Assets/Scripts/MouseLockCursor.cs'
 'Assets/Scripts/Rotate.cs'
